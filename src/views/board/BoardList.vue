@@ -86,7 +86,7 @@
         page: this.page,
         size: this.size
       }
-      this.$axios.get(this.$serverUrl + "/board/list", {
+      this.$axios.get(this.$serverUrl + "/board/findAll", {
         params: this.requestBody,
         headers: {}
       }).then((res) => {      
